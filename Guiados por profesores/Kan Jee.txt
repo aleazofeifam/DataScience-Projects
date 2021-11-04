@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=8igH8qZafpo&ab_channel=KenJee
+
+Project 1: House Prices Regression (https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
+Project 2: Titanic Classification (https://www.kaggle.com/c/titanic)
+
+Project 3: Deep Learning Number Recognition (https://www.kaggle.com/c/digit-recognizer) 
