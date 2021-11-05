@@ -1,0 +1,1 @@
+Project 1: House Prices Regression (https://www.kaggle.com/c/house-prices-advanced-regression-techniques) https://www.youtube.com/watch?v=8igH8qZafpo&ab_channel=KenJee
