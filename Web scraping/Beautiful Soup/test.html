@@ -1,0 +1,121 @@
+<div id="main"> <a name="2_71197_2_0"></a>
+    <h1><a id="loq35813789" href="Javascript:setTrozo(35813789);" class="iconLoquendo"
+            aria-label="Reproducir audio">&nbsp;</a>HADOOP y su ecosistema</h1> <a name="2_71197_2_1"></a>
+    <h2><a id="loq35813790" href="Javascript:setTrozo(35813790);" class="iconLoquendo"
+            aria-label="Reproducir audio">&nbsp;</a>I. Introducción</h2>
+    <p>La <strong>historia de Hadoop</strong> se remonta a <strong>2002</strong>, cuando <strong>Doug Cutting</strong>
+        y<strong> Mike Cafarella</strong> empezaron a trabajar en un proyecto denominado Apache Nutch, que <strong>tenía
+            el objetivo de construir un motor de búsqueda que pudiera ser indexado por mil millones de páginas de
+            internet</strong>.</p>
+    <div data-interactiveboxindex="0" class="boxInteractive interactiveAnotacion open interVisited" tabindex="0"
+        data-interaction="click">
+        <div class="icono">
+            <div class="close">×</div>
+            <div class="titBoxInteractive interElem interVisited"></div>
+            <div class="contentBoxDecoration">Después del estudio que hicieron con las tecnologías que en esos momentos
+                estaban disponibles para tal ejercicio, se dieron cuenta de que los costes serían especialmente altos, y
+                quizás inabordables, según fueran creciendo en la web otros miles de millones de páginas.</div>
+        </div>
+    </div>
+    <div class="interactive interTira interactiveTirainfinita" data-autoformat="-" data-imagecontent=""
+        data-mandatory="0">
+        <div class="tirainfinitaRow">
+            <div class="tirainfinitaRow__arrow tirainfinitaRow__arrow--arrowLeft" style="display: none;"><svg
+                    version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 7.4 13.3" xml:space="preserve">
+                    <path style="fill: #FFFFFF;"
+                        d="M7.1,13.1L7.1,13.1c0.3-0.3,0.3-0.8,0-1.2L1.9,6.7l5.3-5.3c0.3-0.3,0.3-0.8,0-1.2l0,0C6.8-0.1,6.3-0.1,6,0.2L0.3,5.9c-0.4,0.4-0.4,1.1,0,1.5L6,13.1C6.3,13.4,6.8,13.4,7.1,13.1z">
+                    </path>
+                </svg></div>
+            <div class="tirainfinitaRow__arrow tirainfinitaRow__arrow--arrowRight"><svg version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.4 13.3"
+                    xml:space="preserve">
+                    <path style="fill: #FFFFFF;"
+                        d="M0.2,0.2L0.2,0.2c-0.3,0.3-0.3,0.8,0,1.2l5.3,5.3l-5.3,5.3c-0.3,0.3-0.3,0.8,0,1.2l0,0c0.3,0.3,0.8,0.3,1.2,0l5.7-5.7c0.4-0.4,0.4-1.1,0-1.5L1.4,0.2C1.1-0.1,0.6-0.1,0.2,0.2z">
+                    </path>
+                </svg></div>
+            <div class="tirainfinitaRow__scroll">
+                <div class="tirainfinitaRow__inner">
+                    <div class="interElem tirainfinitaCard" data-interactiveindex="0" tabindex="0"
+                        data-interaction="click" data-tiraelemindex="0">
+                        <div class="tirainfinitaCard__media"><span>2003</span></div>
+                        <div class="tirainfinitaCard__details"></div>
+                    </div>
+                    <div class="interElem tirainfinitaCard" data-interactiveindex="1" tabindex="0"
+                        data-interaction="click" data-tiraelemindex="1">
+                        <div class="tirainfinitaCard__media"><span>2004</span></div>
+                        <div class="tirainfinitaCard__details"></div>
+                    </div>
+                    <div class="interElem tirainfinitaCard" data-interactiveindex="2" tabindex="0"
+                        data-interaction="click" data-tiraelemindex="2">
+                        <div class="tirainfinitaCard__media"><span>2006</span></div>
+                        <div class="tirainfinitaCard__details"></div>
+                    </div>
+                    <div class="interElem tirainfinitaCard" data-interactiveindex="3" tabindex="0"
+                        data-interaction="click" data-tiraelemindex="3">
+                        <div class="tirainfinitaCard__media"><span>2007 y 2008</span></div>
+                        <div class="tirainfinitaCard__details"></div>
+                    </div>
+                    <div class="tirainfinitaCard__extrapadding"></div>
+                </div>
+            </div>
+        </div>
+        <div class="interValue tirainfinitaContent" data-interactiveindex="0" data-tiravalueindex="0"
+            style="display: none;">
+            <div>
+                <p>Así que continuaron trabajando en un sistema que pudiera llevar a cabo esa tarea y, en el 2003,
+                    Google publicó otro estudio en el que se describía la arquitectura para almacenar grandes cantidades
+                    de datos, denominada GFS (Google File System). Pero ese documento de Google solo resolvía la parte
+                    de almacenamiento e indexación de la información.</p>
+            </div>
+        </div>
+        <div class="interValue tirainfinitaContent" data-interactiveindex="1" data-tiravalueindex="1"
+            style="display: none;">
+            <div>
+                <p>En 2004, desarrolladores de Nutch escribieron una implementación <i>open source</i> basada en GFS, a
+                    la que llamaron Nutch Distributed File System (NDFS). También en 2004, Google publicó un nuevo
+                    estudio con la técnica MapReduce, que era un nuevo paradigma de procesamiento de la información en
+                    sistemas distribuidos, lo que daba una solución completa a Doug y Mike para crear una solución
+                    <i>open source</i> de almacenamiento y proceso de datos. Google proporcionó la idea de
+                    almacenamiento y proceso de datos en sistemas distribuidos y los desarrolladores de Nutch lo
+                    implementaron en una solución en 2004.</p>
+            </div>
+        </div>
+        <div class="interValue tirainfinitaContent" data-interactiveindex="2" data-tiravalueindex="2"
+            style="display: none;">
+            <div>
+                <p>Y fue en 2006 cuando la comunidad Apache identificó que esta tecnología podía usarse de forma
+                    extendida. Debido a que con Nutch solo podía escalar a unos 20&nbsp;nodos, Doug Cutting se unió a
+                    Yahoo! para poder escalar a muchos más nodos en ese sistema distribuido. El proyecto recibió el
+                    nombre de Apache Hadoop.</p>
+            </div>
+        </div>
+        <div class="interValue tirainfinitaContent" data-interactiveindex="3" data-tiravalueindex="3"
+            style="display: none;">
+            <div>
+                <p class="MsoNoSpacing">En 2007, Yahoo! comenzó a usar esta tecnología en un clúster de 100 nodos, y en
+                    2008, Apache Hadoop se convirtió en un proyecto del más alto nivel de la fundación Apache. Empezó a
+                    extenderse como tecnología estándar para entornos de <i>big data</i>.</p>
+            </div>
+        </div>
+    </div>
+    <div class="interactive interTabHor clearfix interactiveTabHorizontal" data-autofont="2" data-autoformat="-"
+        data-imagecontent="" data-interactionmethod="click" data-mandatory="0">
+        <div class="tabHorizontalOptions interGroup clearfix">
+            <div class="interElem interTabElem selected interVisited" data-interactiveindex="4" tabindex="0"
+                data-interaction="click"><span class="interAutoList font2">Hadoop </span></div>
+        </div>
+        <div class="tabHorizontalValues clearfix">
+            <div class="interValue interTabValue" data-interactiveindex="4" style="display: block;">
+                <div>
+                    <p>Nació como infraestructura para el almacenamiento y procesamiento de grandes volúmenes de datos
+                        en <i>hardware commodity</i> sin que hicieran falta grandes servidores dotados de mucha memoria
+                        y muchos procesadores. La idea era poder utilizar <i>hardware</i> de bajo coste como máquinas
+                        conectadas mediante una red gestionada de forma centralizada y que pudiera escalar en
+                        almacenamiento y capacidad de proceso sin grandes inversiones en <i>hardware</i>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wrapperAsideNotes" class="asideNote__wrapper"></div>
+</div>
